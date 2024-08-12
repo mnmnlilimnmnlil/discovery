@@ -17,7 +17,7 @@ function CollectionSlide(props){
     return(
         <a href="#">
             <div className="imgBox">
-                <img src={`/images/right_${props.i}.jpg`}/>
+                <img src={`${process.env.PUBLIC_URL}/images/right_${props.i}.jpg`}/>
             </div>
             <div className="txtBox">
                 <p>{props.right[props.i].d}</p>
