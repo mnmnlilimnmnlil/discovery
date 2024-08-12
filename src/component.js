@@ -30,7 +30,7 @@ function Best(props){
     return(
         <a href="#">
             <div className="imgBox">
-                <img src={`/images/best_${props.i}.jpg`}/>
+                <img src={`${process.env.PUBLIC_URL}/images/best_${props.i}.jpg`}/>
             </div>
             <div className="txtBox">
                 <p>{props.best[props.i].n}</p>
@@ -44,7 +44,7 @@ function Tv(props){
     return(
         <a href="#">
             <div className="imgBox">
-                <img src={`/images/tv_${props.i}.jpg`}/>
+                <img src={`${process.env.PUBLIC_URL}/images/tv_${props.i}.jpg`}/>
             </div>
             <div className="txtBox">
                 {/* <p>{props.tv[props.i].m}</p> */}
@@ -58,7 +58,7 @@ function Tv1(props){
     return(
         <a href="#">
             <div className="imgBox">
-                <img src={`/images/tv1_${props.i}.jpg`}/>
+                <img src={`${process.env.PUBLIC_URL}/images/tv1_${props.i}.jpg`}/>
             </div>
             <div className="txtBox">
                 {/* <p>{props.tv[props.i].m}</p> */}
@@ -72,7 +72,7 @@ function Tv2(props){
     return(
         <a href="#">
             <div className="imgBox">
-                <img src={`/images/tv2_${props.i}.jpg`}/>
+                <img src={`${process.env.PUBLIC_URL}/images/tv2_${props.i}.jpg`}/>
             </div>
             <div className="txtBox">
                 {/* <p>{props.tv[props.i].m}</p> */}
@@ -86,7 +86,7 @@ function Focus(props){
     return(
         <a href="#">
             <div className="imgBox">
-                <img src={`/images/focus_${props.i}.jpg`}/>
+                <img src={`${process.env.PUBLIC_URL}/images/focus_${props.i}.jpg`}/>
             </div>
             {/* <div className="txtBox">
                 <p>{props.tv[props.i].m}</p>
