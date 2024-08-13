@@ -3,7 +3,7 @@ function Main(props){
         <a href="#">
             <div className="imgBox">
                 <img src={`${process.env.PUBLIC_URL}/images/main_${props.i}.jpg`}/>
-                {/* <img src={process.env.PUBLIC_URL+"/images/main_"+props.i+".jpg"}/> */}
+                {/* { <img src={process.env.PUBLIC_URL+"/images/main_"+props.i+".jpg"}/> } */}
             </div>
             <div className="txtBox">
                 <p>{props.m[props.i].d}</p>

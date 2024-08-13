@@ -115,7 +115,7 @@ function App() {
         <div className="c_left">
           <h3>COLLECTION</h3>
           <h2>지금 떠나는 바캉스</h2>
-          <div className="left_img"><img src="/images/c_left.jpg" /></div>
+          <div className="left_img"><img src={`${process.env.PUBLIC_URL}/images/c_left.jpg`} alt="Description of image" /></div>
         </div>
 
         <div className="c_right">
